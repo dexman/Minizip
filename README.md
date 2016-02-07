@@ -32,6 +32,9 @@ See `Vendor/Minizip/miniunz.c` and `Vendor/Minizip/minizip.c` for examples in C.
 
 ## History
 
+### 1.1.0 / 2016-02-07
+- Make ioapi_buf and ioapi_mem public.
+
 ### 1.0.0 / 2016-02-06
 #### Added
 - Initial version.
