@@ -36,9 +36,9 @@
 		8687AF751C66F4B3005D9419 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8687AF461C66F4B3005D9419 /* ioapi.c */; };
 		8687AF761C66F4B3005D9419 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF471C66F4B3005D9419 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AF771C66F4B3005D9419 /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8687AF481C66F4B3005D9419 /* ioapi_buf.c */; };
-		8687AF781C66F4B3005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; };
+		8687AF781C66F4B3005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AF791C66F4B3005D9419 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 8687AF4A1C66F4B3005D9419 /* ioapi_mem.c */; };
-		8687AF7A1C66F4B3005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; };
+		8687AF7A1C66F4B3005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AF871C66F4B3005D9419 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8687AF581C66F4B3005D9419 /* unzip.c */; };
 		8687AF881C66F4B3005D9419 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF591C66F4B3005D9419 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AF891C66F4B3005D9419 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8687AF5A1C66F4B3005D9419 /* zip.c */; };
@@ -99,8 +99,8 @@
 		8687AFC01C66F4E2005D9419 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF421C66F4B3005D9419 /* sha1.h */; };
 		8687AFC11C66F4E2005D9419 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF451C66F4B3005D9419 /* crypt.h */; };
 		8687AFC21C66F4E2005D9419 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF471C66F4B3005D9419 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8687AFC31C66F4E2005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; };
-		8687AFC41C66F4E2005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; };
+		8687AFC31C66F4E2005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8687AFC41C66F4E2005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFC51C66F4E2005D9419 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF591C66F4B3005D9419 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFC61C66F4E2005D9419 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF5B1C66F4B3005D9419 /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFC71C66F4E3005D9419 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF2D1C66F4B3005D9419 /* aes.h */; };
@@ -117,8 +117,8 @@
 		8687AFD21C66F4E3005D9419 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF421C66F4B3005D9419 /* sha1.h */; };
 		8687AFD31C66F4E3005D9419 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF451C66F4B3005D9419 /* crypt.h */; };
 		8687AFD41C66F4E3005D9419 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF471C66F4B3005D9419 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8687AFD51C66F4E3005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; };
-		8687AFD61C66F4E3005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; };
+		8687AFD51C66F4E3005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8687AFD61C66F4E3005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFD71C66F4E3005D9419 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF591C66F4B3005D9419 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFD81C66F4E3005D9419 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF5B1C66F4B3005D9419 /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFD91C66F4E3005D9419 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF2D1C66F4B3005D9419 /* aes.h */; };
@@ -135,8 +135,8 @@
 		8687AFE41C66F4E3005D9419 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF421C66F4B3005D9419 /* sha1.h */; };
 		8687AFE51C66F4E3005D9419 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF451C66F4B3005D9419 /* crypt.h */; };
 		8687AFE61C66F4E3005D9419 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF471C66F4B3005D9419 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8687AFE71C66F4E3005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; };
-		8687AFE81C66F4E3005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; };
+		8687AFE71C66F4E3005D9419 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF491C66F4B3005D9419 /* ioapi_buf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8687AFE81C66F4E3005D9419 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF4B1C66F4B3005D9419 /* ioapi_mem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFE91C66F4E3005D9419 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF591C66F4B3005D9419 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFEA1C66F4E3005D9419 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF5B1C66F4B3005D9419 /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AFEC1C66F51C005D9419 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687AFEB1C66F51C005D9419 /* libz.tbd */; };
