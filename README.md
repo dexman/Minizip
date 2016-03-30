@@ -32,6 +32,9 @@ See `Vendor/Minizip/miniunz.c` and `Vendor/Minizip/minizip.c` for examples in C.
 
 ## History
 
+### 1.2.0 2016-03-29
+- Fixes compilation on Xcode 7.3.
+
 ### 1.1.0 / 2016-02-07
 - Make ioapi_buf and ioapi_mem public.
 

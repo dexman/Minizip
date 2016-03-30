@@ -11,8 +11,12 @@
 
 framework module Minizip {
     umbrella header "Minizip.h"
+
     header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/zconf.h"
     header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/zlib.h"
+
+    link "z"
+
     export *
     module * { export * }
 }
