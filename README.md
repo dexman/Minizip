@@ -32,6 +32,9 @@ See `Vendor/Minizip/miniunz.c` and `Vendor/Minizip/minizip.c` for examples in C.
 
 ## History
 
+### 1.3.0 2016-11-18
+- Use version-less SDK path for MacOSX10.12.sdk compatibility. Thanks [RossAnderson](https://github.com/RossAnderson)!.
+
 ### 1.2.0 2016-03-29
 - Fixes compilation on Xcode 7.3.
 
