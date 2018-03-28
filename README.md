@@ -32,8 +32,11 @@ See `Vendor/Minizip/miniunz.c` and `Vendor/Minizip/minizip.c` for examples in C.
 
 ## History
 
+### 1.4.0 2018-03-28
+- Fixed builds on Xcode 9. Thanks [simonseyer](https://github.com/simonseyer)!
+
 ### 1.3.0 2016-11-18
-- Use version-less SDK path for MacOSX10.12.sdk compatibility. Thanks [RossAnderson](https://github.com/RossAnderson)!.
+- Use version-less SDK path for MacOSX10.12.sdk compatibility. Thanks [RossAnderson](https://github.com/RossAnderson)!
 
 ### 1.2.0 2016-03-29
 - Fixes compilation on Xcode 7.3.
@@ -51,7 +54,7 @@ See `Vendor/Minizip/miniunz.c` and `Vendor/Minizip/minizip.c` for examples in C.
 
 Minizip code taken from [nmoinvaz/minizip](https://github.com/nmoinvaz/minizip).
 
-Framework module approach by Matt Behrens as documented in [Getting Started Using C Libraries from Swift](https://spin.atomicobject.com/2015/02/23/c-libraries-swift/).
+Original framework module approach by Matt Behrens as documented in [Getting Started Using C Libraries from Swift](https://spin.atomicobject.com/2015/02/23/c-libraries-swift/).
 
 ## License
 
