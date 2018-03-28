@@ -143,7 +143,6 @@
 		8687AFEE1C66F521005D9419 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687AFED1C66F521005D9419 /* libz.tbd */; };
 		8687AFF01C66F526005D9419 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687AFEF1C66F526005D9419 /* libz.tbd */; };
 		8687AFF21C66F529005D9419 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687AFF11C66F529005D9419 /* libz.tbd */; };
-		86EEC71E1C66F67A0052000B /* Minizip.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -189,11 +188,6 @@
 		8687AFED1C66F521005D9419 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		8687AFEF1C66F526005D9419 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		8687AFF11C66F529005D9419 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
-		86EEC7191C66F67A0052000B /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
-		86EEC71A1C66F67A0052000B /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
-		86EEC71B1C66F67A0052000B /* Minizip.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Minizip.xcconfig; sourceTree = "<group>"; };
-		86EEC71C1C66F67A0052000B /* tvos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = tvos.modulemap; sourceTree = "<group>"; };
-		86EEC71D1C66F67A0052000B /* watchos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = watchos.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,11 +252,6 @@
 			children = (
 				8687AEEB1C66F322005D9419 /* Minizip.h */,
 				8687AEED1C66F322005D9419 /* Info.plist */,
-				86EEC71B1C66F67A0052000B /* Minizip.xcconfig */,
-				86EEC7191C66F67A0052000B /* iphoneos.modulemap */,
-				86EEC71A1C66F67A0052000B /* macosx.modulemap */,
-				86EEC71C1C66F67A0052000B /* tvos.modulemap */,
-				86EEC71D1C66F67A0052000B /* watchos.modulemap */,
 			);
 			path = Minizip;
 			sourceTree = "<group>";
@@ -563,7 +552,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86EEC71E1C66F67A0052000B /* Minizip.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,7 +668,6 @@
 /* Begin XCBuildConfiguration section */
 		8687AEEE1C66F322005D9419 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -729,7 +716,6 @@
 		};
 		8687AEEF1C66F322005D9419 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -771,7 +757,6 @@
 		};
 		8687AEF11C66F322005D9419 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -789,7 +774,6 @@
 		};
 		8687AEF21C66F322005D9419 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -807,7 +791,6 @@
 		};
 		8687AF0B1C66F351005D9419 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -828,7 +811,6 @@
 		};
 		8687AF0C1C66F351005D9419 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -849,7 +831,6 @@
 		};
 		8687AF181C66F35A005D9419 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -870,7 +851,6 @@
 		};
 		8687AF191C66F35A005D9419 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -891,7 +871,6 @@
 		};
 		8687AF251C66F36A005D9419 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -914,7 +893,6 @@
 		};
 		8687AF261C66F36A005D9419 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EEC71B1C66F67A0052000B /* Minizip.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
